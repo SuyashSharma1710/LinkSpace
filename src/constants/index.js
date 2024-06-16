@@ -172,27 +172,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Suyash proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Dedicated and passionate Bachelor's student eager to leverage academic knowledge and skills in real-world projects.",
+    name: "COER University",
+    designation: "bachelor's",
+    company: "Computer Application",
+    image: "BCA",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Suyash does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Aspiring 12th-grade student passionate about technology and eager to apply my skills in innovative projects.",
+    name: "Shivdale School",
+    designation: "Sudent",
+    company: "PCM + Computer Science",
+    image: "12th",
   },
   {
     testimonial:
-      "After Suyash optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Dedicated 10th-grade student excited about learning new technologies and ready to take on creative challenges.",
+    name: "Bal Bharti BHEL",
+    designation: "Student",
+    company: "CORE Subjects + Info. Technology",
+    image: "10th",
   },
 ];
 
