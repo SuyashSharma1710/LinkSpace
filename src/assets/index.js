@@ -24,7 +24,6 @@ import django from "./tech/django.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
 
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -35,7 +34,12 @@ import suven from "./company/suven.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import skola from "./skola.png";
 import tripguide from "./tripguide.png";
+import estate from "./estate.png";
+import handsign from "./handsign.png";
+import faceex from "./faceex.png";
+
 
 export {
   logo,
@@ -71,5 +75,9 @@ export {
   tesla,
   carrent,
   jobit,
+  skola,
+  estate,
+  handsign,
+  faceex,
   tripguide,
 };

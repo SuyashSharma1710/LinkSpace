@@ -16,6 +16,7 @@ import {
   figma,
   suven,
   docker,
+  skola,
   django,
   java,
   python,
@@ -24,6 +25,9 @@ import {
   colabera,
   tesla,
   shopify,
+  estate,
+  handsign,
+  faceex,
   sync,
   carrent,
   jobit,
@@ -194,67 +198,88 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Elearning Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an E-Learning platform using Python and Django, empowering digital education. Users registered, accessed course materials, took online assessments, and generate certificate. Demonstrated expertise in web development.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: skola,
+    source_code_link: "https://github.com/SuyashSharma1710/E_Learning_PROJECT/",
   },
   {
-    name: "Job IT",
+    name: "Estate Agency",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for nearby properties for sale, view estimated price ranges for property, and locate available land based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: estate,
+    source_code_link: "https://github.com/SuyashSharma1710/estate-agency",
   },
   {
-    name: "Trip Guide",
+    name: "Hand Sign Recog.",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Hand Gesture Recognition is a project focused on developing a computer vision system that can accurately detect and interpret human hand sign language in real-time.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "opencv",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: handsign,
+    source_code_link: "https://github.com/SuyashSharma1710/Hand_Gesture_Recognition",
+  },
+  {
+    name: "Facial Expression Recog.",
+    description:
+      "Facial Expression Recognition (FER) is a computer vision task aimed at identifying and categorizing emotional expressions depicted on a human face.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jupyter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "notebook",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: faceex,
+    source_code_link: "https://github.com/SuyashSharma1710/face_expression_recognition_in_jupyter",
   },
 ];
 
