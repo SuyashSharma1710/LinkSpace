@@ -17,16 +17,16 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  // Handle input changes and update form state
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
+    const { name, value } = e.target;
     setForm({
       ...form,
       [name]: value,
     });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Suyash",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "suyashsharma171001@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -49,6 +49,7 @@ const Contact = () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
+          // Reset form fields
           setForm({
             name: "",
             email: "",
@@ -65,9 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -75,11 +74,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
-        >
+        <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
