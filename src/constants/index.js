@@ -79,6 +79,11 @@ const services = [
 
 const technologies = [
   {
+    name: "Portfolio",
+    icon: logo,
+    url:"https://suyashsharma1710.github.io/Suyash-Sharma-Portfolio/",
+  },
+  {
     name: "Github",
     icon: githubb,
     url:"https://github.com/SuyashSharma1710",
@@ -112,11 +117,6 @@ const technologies = [
     name: "Instagram",
     icon: instagram,
     url:"https://www.instagram.com/yashbhardwaj56?igshid=Y2M0YTlkZGNmOQ%3D%3D",
-  },
-  {
-    name: "Portfolio",
-    icon: logo,
-    url:"https://suyashsharma1710.github.io/Suyash-Sharma-Portfolio/",
   },
   
 ];
