@@ -40,6 +40,7 @@ import {
   x,
   linkedin,
   hashnode,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -111,6 +112,11 @@ const technologies = [
     name: "Instagram",
     icon: instagram,
     url:"https://www.instagram.com/yashbhardwaj56?igshid=Y2M0YTlkZGNmOQ%3D%3D",
+  },
+  {
+    name: "Portfolio",
+    icon: logo,
+    url:"https://suyashsharma1710.github.io/Suyash-Sharma-Portfolio/",
   },
   
 ];
