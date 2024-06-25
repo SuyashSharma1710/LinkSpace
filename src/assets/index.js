@@ -32,6 +32,14 @@ import colabera from "./company/colabera.png"
 import sync from "./company/sync.png"
 import suven from "./company/suven.png"
 
+import facebook from "./social/facebook.png"
+import githubb from "./social/githubb.png"
+import instagram from "./social/instagram.png"
+import hashnode from "./social/hashnode.png"
+import x from "./social/x.png"
+import linkedin from "./social/linkedin.png"
+import stack from "./social/stack.png"
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import skola from "./skola.png";
@@ -80,4 +88,11 @@ export {
   handsign,
   faceex,
   tripguide,
+  facebook,
+  instagram,
+  githubb,
+  stack,
+  x,
+  linkedin,
+  hashnode,
 };

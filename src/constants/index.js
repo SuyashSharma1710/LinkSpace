@@ -33,6 +33,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  facebook,
+  instagram,
+  githubb,
+  stack,
+  x,
+  linkedin,
+  hashnode,
 } from "../assets";
 
 export const navLinks = [
@@ -71,56 +78,39 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Github",
+    icon: githubb,
+    url:"https://github.com/SuyashSharma1710",
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Stack Overflow",
+    icon: stack,
+    url:"https://stackoverflow.com/users/21927729/suyash-sharma",
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "LinkedIn",
+    icon: linkedin,
+    url:"https://www.linkedin.com/in/suyash-sharma-756375196/",
   },
   {
-    name: "Java",
-    icon: java,
+    name: "Hashnode",
+    icon: hashnode,
+    url:"https://hashnode.com/@SuyashSharma1710",
   },
   {
-    name: "Python",
-    icon: python,
+    name: "X",
+    icon: x,
+    url:"https://x.com/SuyashSHARMA170?t=JBtfqi9vRjECQGm6L1JkLg&s=09",
   },
   {
-    name: "git",
-    icon: git,
+    name: "Facebook",
+    icon: facebook,
+    url:"https://www.facebook.com/yash.bhardwaj.921025",
   },
   {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "Instagram",
+    icon: instagram,
+    url:"https://www.instagram.com/yashbhardwaj56?igshid=Y2M0YTlkZGNmOQ%3D%3D",
   },
   
 ];
