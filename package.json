@@ -5,12 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
